@@ -1,0 +1,120 @@
+
+/*the CSS styles that must be applied to all the html tags*/
+*{                         
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: Calibri;
+color: white;
+font-weight: normal;
+/*background-color:#1b1b33;*/
+}
+a
+{
+	text-decoration: none;
+}
+header,.headlogo,.functional{
+
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo,.profile{
+
+    height: 70px;
+    padding: 1vh;
+    margin-right: 20px;
+}
+
+.functional,.headlogo
+{
+	width: 600px;	
+}
+input
+{
+color: white;
+border-radius: 3px;
+height: 35px;
+width: 400px;
+background: #1e1e41;
+border: none;
+padding-left: 4px;
+font-size: 21px;
+}
+button
+{
+background: none;
+border: none;
+cursor:pointer;
+font-size: 20px;
+}
+.search
+{
+margin-left: -30px;
+}
+.message i:hover,.search i:hover
+{
+  color:#cfe5fc;
+}
+.profile:hover
+{
+border-radius: 50px;
+box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+padding: 0px;
+cursor: pointer;
+
+}
+@media only screen and (max-width: 800px) 
+{
+ 
+	 header
+	 {
+	  flex-direction:column;		
+ 	 }
+}
+.topgear
+{
+	display:flex;
+	background-color: #1b1b33;
+	align-items: center;
+	justify-content: center;
+}
+.imagesize
+{
+height:300px;
+width:300px;
+top:25px;
+position:relative;
+box-shadow:0px 0px 10px 2px black;
+}
+.imagesize2
+{
+height:300px;
+width:300px;
+top:25px;
+position:relative;
+box-shadow:0px 0px 20px 4px black;
+}
+.singer
+{
+left:100px;
+z-index:1;
+}
+.partymix
+{
+z-index:2;
+}
+.hollywood
+{
+left:-100px;
+z-index:1;
+}
+.content
+{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
